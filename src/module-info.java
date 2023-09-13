@@ -1,0 +1,9 @@
+module helloFX {
+	requires javafx.controls;
+	requires java.desktop;
+	requires javafx.graphics;
+	requires javafx.fxml;
+	requires javafx.media;
+	
+	opens application to javafx.graphics, javafx.fxml;
+}
